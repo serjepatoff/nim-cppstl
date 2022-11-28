@@ -1,0 +1,16 @@
+CppSharedPtr	cppstl/std_smartptrs.html#CppSharedPtr	std_smartptrs: CppSharedPtr	
+makeShared	cppstl/std_smartptrs.html#makeShared,typedesc	std_smartptrs: makeShared(T: typedesc): CppSharedPtr[T]	
+makeShared	cppstl/std_smartptrs.html#makeShared,CppSharedPtr[T]	std_smartptrs: makeShared[T](p: CppSharedPtr[T]): CppSharedPtr[T]	
+`=copy`	cppstl/std_smartptrs.html#=copy,CppSharedPtr[T],CppSharedPtr[T]	std_smartptrs: `=copy`[T](p: var CppSharedPtr[T]; o: CppSharedPtr[T])	
+`=sink`	cppstl/std_smartptrs.html#=sink,CppSharedPtr[T],CppSharedPtr[T]	std_smartptrs: `=sink`[T](dst: var CppSharedPtr[T]; src: CppSharedPtr[T])	
+CppUniquePtr	cppstl/std_smartptrs.html#CppUniquePtr	std_smartptrs: CppUniquePtr	
+makeUnique	cppstl/std_smartptrs.html#makeUnique,typedesc	std_smartptrs: makeUnique(T: typedesc): CppUniquePtr[T]	
+`=copy`	cppstl/std_smartptrs.html#=copy,CppUniquePtr[T],CppUniquePtr[T]	std_smartptrs: `=copy`[T](dst: var CppUniquePtr[T]; src: CppUniquePtr[T])	
+`=sink`	cppstl/std_smartptrs.html#=sink,CppUniquePtr[T],CppUniquePtr[T]	std_smartptrs: `=sink`[T](dst: var CppUniquePtr[T]; src: CppUniquePtr[T])	
+deref	cppstl/std_smartptrs.html#deref	std_smartptrs: deref[T](p: CppUniquePtr[T] or CppSharedPtr[T]): var T	
+get	cppstl/std_smartptrs.html#get	std_smartptrs: get[T](p: CppUniquePtr[T] or CppSharedPtr[T]): ptr T	
+`$`	cppstl/std_smartptrs.html#$,CppUniquePtr[T]	std_smartptrs: `$`[T](p: CppUniquePtr[T]): string	
+`$`	cppstl/std_smartptrs.html#$,CppSharedPtr[T]	std_smartptrs: `$`[T](p: CppSharedPtr[T]): string	
+`.()`	cppstl/std_smartptrs.html#.().m,,untyped,varargs[untyped]	std_smartptrs: `.()`[T](p: CppUniquePtr[T] or CppSharedPtr[T]; fieldOrFunc: untyped;\n         args: varargs[untyped]): untyped	
+`.`	cppstl/std_smartptrs.html#..m,,untyped	std_smartptrs: `.`[T](p: CppUniquePtr[T] or CppSharedPtr[T]; fieldOrFunc: untyped): untyped	
+`.=`	cppstl/std_smartptrs.html#.=.m,,untyped,untyped	std_smartptrs: `.=`[T](p: CppUniquePtr[T] or CppSharedPtr[T]; fieldOrFunc: untyped;\n        args: untyped): untyped	

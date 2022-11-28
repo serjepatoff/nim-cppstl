@@ -1,0 +1,23 @@
+CppPair	cppstl/std_pair.html#CppPair	std_pair: CppPair	
+first	cppstl/std_pair.html#first,CppPair[T1,T2]	std_pair: first[T1, T2](this: CppPair[T1, T2]): T1	
+first	cppstl/std_pair.html#first,CppPair[T1,T2]_2	std_pair: first[T1, T2](this: var CppPair[T1, T2]): var T1	
+first=	cppstl/std_pair.html#first=,CppPair[T1,T2],T1	std_pair: first=[T1, T2](this: var CppPair[T1, T2]; val: T1)	
+second	cppstl/std_pair.html#second,CppPair[T1,T2]	std_pair: second[T1, T2](this: CppPair[T1, T2]): T2	
+second	cppstl/std_pair.html#second,CppPair[T1,T2]_2	std_pair: second[T1, T2](this: var CppPair[T1, T2]): var T2	
+second=	cppstl/std_pair.html#second=,CppPair[T1,T2],T2	std_pair: second=[T1, T2](this: var CppPair[T1, T2]; val: T2)	
+initCppPair	cppstl/std_pair.html#initCppPair	std_pair: initCppPair[T1, T2](): CppPair[T1, T2]	
+initCppPair	cppstl/std_pair.html#initCppPair,T1,T2	std_pair: initCppPair[T1, T2](x: T1; y: T2): CppPair[T1, T2]	
+initCppPair	cppstl/std_pair.html#initCppPair,CppPair[T1,T2]	std_pair: initCppPair[T1, T2](p: CppPair[T1, T2]): CppPair[T1, T2]	
+swap	cppstl/std_pair.html#swap,CppPair[T1,T2],CppPair[T1,T2]	std_pair: swap[T1, T2](this, other: var CppPair[T1, T2])	
+makePair	cppstl/std_pair.html#makePair,F,S	std_pair: makePair[F, S](a: F; b: S): CppPair[F, S]	
+`==`	cppstl/std_pair.html#==,CppPair[T1,T2],CppPair[T1,T2]	std_pair: `==`[T1, T2](lhs, rhs: CppPair[T1, T2]): bool	
+`!=`	cppstl/std_pair.html#!=,CppPair[T1,T2],CppPair[T1,T2]	std_pair: `!=`[T1, T2](lhs, rhs: CppPair[T1, T2]): bool	
+`&lt;`	cppstl/std_pair.html#<,CppPair[T1,T2],CppPair[T1,T2]	std_pair: `&lt;`[T1, T2](lhs, rhs: CppPair[T1, T2]): bool	
+`&lt;=`	cppstl/std_pair.html#<=,CppPair[T1,T2],CppPair[T1,T2]	std_pair: `&lt;=`[T1, T2](lhs, rhs: CppPair[T1, T2]): bool	
+`&gt;`	cppstl/std_pair.html#>,CppPair[T1,T2],CppPair[T1,T2]	std_pair: `&gt;`[T1, T2](lhs, rhs: CppPair[T1, T2]): bool	
+`&gt;=`	cppstl/std_pair.html#>=,CppPair[T1,T2],CppPair[T1,T2]	std_pair: `&gt;=`[T1, T2](lhs, rhs: CppPair[T1, T2]): bool	
+get	cppstl/std_pair.html#get,typedesc,CppPair[T1,T2]	std_pair: get[T1, T2](T: typedesc; p: CppPair[T1, T2]): auto	
+get	cppstl/std_pair.html#get,staticint,CppPair[T1,T2]	std_pair: get[T1, T2](n: static int; p: CppPair[T1, T2]): auto	
+`$`	cppstl/std_pair.html#$,CppPair[F,S]	std_pair: `$`[F, S](val: CppPair[F, S]): string	
+toTuple	cppstl/std_pair.html#toTuple,CppPair[F,S]	std_pair: toTuple[F, S](val: CppPair[F, S]): tuple[first: F, second: S]	
+makePair	cppstl/std_pair.html#makePair,tuple[F,S]	std_pair: makePair[F, S](t: tuple[first: F, second: S]): CppPair[F, S]	

@@ -1,0 +1,152 @@
+CppBasicString	cppstl/std_basicstring.html#CppBasicString	std_basicstring: CppBasicString	
+CppBasicStringIterator	cppstl/std_basicstring.html#CppBasicStringIterator	std_basicstring: CppBasicStringIterator	
+CppBasicStringConstIterator	cppstl/std_basicstring.html#CppBasicStringConstIterator	std_basicstring: CppBasicStringConstIterator	
+stdNpos	cppstl/std_basicstring.html#stdNpos	std_basicstring: stdNpos	
+initCppBasicString	cppstl/std_basicstring.html#initCppBasicString	std_basicstring: initCppBasicString[T](): CppBasicString[T]	
+initCppBasicString	cppstl/std_basicstring.html#initCppBasicString,CppBasicString[T]	std_basicstring: initCppBasicString[T](str: CppBasicString[T]): CppBasicString[T]	
+initCppBasicString	cppstl/std_basicstring.html#initCppBasicString,CppBasicString[T],csize_t	std_basicstring: initCppBasicString[T](str: CppBasicString[T]; pos: csize_t): CppBasicString[T]	
+initCppBasicString	cppstl/std_basicstring.html#initCppBasicString,CppBasicString[T],csize_t,csize_t	std_basicstring: initCppBasicString[T](str: CppBasicString[T]; pos, len: csize_t): CppBasicString[\n    T]	
+initCppBasicString	cppstl/std_basicstring.html#initCppBasicString,ptr.UncheckedArray[T]	std_basicstring: initCppBasicString[T](s: ptr UncheckedArray[T]): CppBasicString[T]	
+initCppBasicString	cppstl/std_basicstring.html#initCppBasicString,ptr.UncheckedArray[T],csize_t	std_basicstring: initCppBasicString[T](s: ptr UncheckedArray[T]; n: csize_t): CppBasicString[T]	
+initCppBasicString	cppstl/std_basicstring.html#initCppBasicString,CppBasicStringConstIterator,CppBasicStringConstIterator	std_basicstring: initCppBasicString[T](first, last: CppBasicStringConstIterator): CppBasicString[\n    T]	
+begin	cppstl/std_basicstring.html#begin,CppBasicString[T]	std_basicstring: begin[T](x: CppBasicString[T]): CppBasicStringIterator[T]	
+`end`	cppstl/std_basicstring.html#end,CppBasicString[T]	std_basicstring: `end`[T](x: CppBasicString[T]): CppBasicStringIterator[T]	
+rBegin	cppstl/std_basicstring.html#rBegin,CppBasicString[T]	std_basicstring: rBegin[T](x: CppBasicString[T]): CppBasicStringIterator[T]	
+rEnd	cppstl/std_basicstring.html#rEnd,CppBasicString[T]	std_basicstring: rEnd[T](x: CppBasicString[T]): CppBasicStringIterator[T]	
+cBegin	cppstl/std_basicstring.html#cBegin,CppBasicString[T]	std_basicstring: cBegin[T](x: CppBasicString[T]): CppBasicStringConstIterator[T]	
+cEnd	cppstl/std_basicstring.html#cEnd,CppBasicString[T]	std_basicstring: cEnd[T](x: CppBasicString[T]): CppBasicStringConstIterator[T]	
+crBegin	cppstl/std_basicstring.html#crBegin,CppBasicString[T]	std_basicstring: crBegin[T](x: CppBasicString[T]): CppBasicStringConstIterator[T]	
+crEnd	cppstl/std_basicstring.html#crEnd,CppBasicString[T]	std_basicstring: crEnd[T](x: CppBasicString[T]): CppBasicStringConstIterator[T]	
+size	cppstl/std_basicstring.html#size,CppBasicString[T]	std_basicstring: size[T](self: CppBasicString[T]): csize_t	
+length	cppstl/std_basicstring.html#length,CppBasicString[T]	std_basicstring: length[T](s: CppBasicString[T]): csize_t	
+maxSize	cppstl/std_basicstring.html#maxSize,CppBasicString[T]	std_basicstring: maxSize[T](self: CppBasicString[T]): csize_t	
+resize	cppstl/std_basicstring.html#resize,CppBasicString[T],csize_t	std_basicstring: resize[T](self: CppBasicString[T]; n: csize_t)	
+capacity	cppstl/std_basicstring.html#capacity,CppBasicString[T]	std_basicstring: capacity[T](self: CppBasicString[T]): csize_t	
+reserve	cppstl/std_basicstring.html#reserve,CppBasicString[T],csize_t	std_basicstring: reserve[T](self: var CppBasicString[T]; n: csize_t)	
+clear	cppstl/std_basicstring.html#clear,CppBasicString[T]	std_basicstring: clear[T](self: var CppBasicString[T])	
+empty	cppstl/std_basicstring.html#empty,CppBasicString[T]	std_basicstring: empty[T](self: CppBasicString[T]): bool	
+shrinkToFit	cppstl/std_basicstring.html#shrinkToFit,CppBasicString[T]	std_basicstring: shrinkToFit[T](self: var CppBasicString[T])	
+at	cppstl/std_basicstring.html#at,CppBasicString[T],csize_t	std_basicstring: at[T](self: var CppBasicString[T]; n: csize_t): var T	
+at	cppstl/std_basicstring.html#at,CppBasicString[T],csize_t_2	std_basicstring: at[T](self: CppBasicString[T]; n: csize_t): T	
+front	cppstl/std_basicstring.html#front,CppBasicString[T]	std_basicstring: front[T](self: CppBasicString[T]): T	
+front	cppstl/std_basicstring.html#front,CppBasicString[T]_2	std_basicstring: front[T](self: var CppBasicString[T]): var T	
+back	cppstl/std_basicstring.html#back,CppBasicString[T]	std_basicstring: back[T](self: CppBasicString[T]): T	
+back	cppstl/std_basicstring.html#back,CppBasicString[T]_2	std_basicstring: back[T](self: var CppBasicString[T]): var T	
+`+=`	cppstl/std_basicstring.html#+=,CppBasicString[T],CppBasicString[T]	std_basicstring: `+=`[T](self: var CppBasicString[T]; str: CppBasicString[T])	
+`+=`	cppstl/std_basicstring.html#+=,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: `+=`[T](self: var CppBasicString[T]; str: ptr UncheckedArray[T])	
+`+=`	cppstl/std_basicstring.html#+=,CppBasicString[T],T	std_basicstring: `+=`[T](self: var CppBasicString[T]; str: T)	
+append	cppstl/std_basicstring.html#append,CppBasicString[T],CppBasicString[T]	std_basicstring: append[T](self: var CppBasicString[T]; str: CppBasicString[T])	
+append	cppstl/std_basicstring.html#append,CppBasicString[T],CppBasicString[T],csize_t,csize_t	std_basicstring: append[T](self: var CppBasicString[T]; str: CppBasicString[T];\n          subpos, sublen: csize_t)	
+append	cppstl/std_basicstring.html#append,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: append[T](self: var CppBasicString[T]; str: ptr UncheckedArray[T])	
+append	cppstl/std_basicstring.html#append,CppBasicString[T],ptr.UncheckedArray[T],csize_t	std_basicstring: append[T](self: var CppBasicString[T]; str: ptr UncheckedArray[T]; n: csize_t)	
+append	cppstl/std_basicstring.html#append,CppBasicString[T],csize_t,T	std_basicstring: append[T](self: var CppBasicString[T]; n: csize_t; str: T)	
+append	cppstl/std_basicstring.html#append,CppBasicString[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T]	std_basicstring: append[T](self: var CppBasicString[T];\n          first, last: CppBasicStringConstIterator[T])	
+pushBack	cppstl/std_basicstring.html#pushBack,CppBasicString[T],T	std_basicstring: pushBack[T](self: var CppBasicString[T]; x: T)	
+assign	cppstl/std_basicstring.html#assign,CppBasicString[T],CppBasicString[T]	std_basicstring: assign[T](self: var CppBasicString[T]; str: CppBasicString[T])	
+assign	cppstl/std_basicstring.html#assign,CppBasicString[T],CppBasicString[T],csize_t,csize_t	std_basicstring: assign[T](self: var CppBasicString[T]; str: CppBasicString[T];\n          subpos, sublen: csize_t)	
+assign	cppstl/std_basicstring.html#assign,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: assign[T](self: var CppBasicString[T]; str: ptr UncheckedArray[T])	
+assign	cppstl/std_basicstring.html#assign,CppBasicString[T],ptr.UncheckedArray[T],csize_t	std_basicstring: assign[T](self: var CppBasicString[T]; str: ptr UncheckedArray[T]; n: csize_t)	
+assign	cppstl/std_basicstring.html#assign,CppBasicString[T],csize_t,T	std_basicstring: assign[T](self: var CppBasicString[T]; n: csize_t; c: T)	
+assign	cppstl/std_basicstring.html#assign,CppBasicString[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T]	std_basicstring: assign[T](self: var CppBasicString[T];\n          first, last: CppBasicStringConstIterator[T])	
+insert	cppstl/std_basicstring.html#insert,CppBasicString[T],csize_t,CppBasicString[T]	std_basicstring: insert[T](self: var CppBasicString[T]; pos: csize_t; str: CppBasicString[T])	
+insert	cppstl/std_basicstring.html#insert,CppBasicString[T],csize_t,CppBasicString[T],csize_t,csize_t	std_basicstring: insert[T](self: var CppBasicString[T]; pos: csize_t; str: CppBasicString[T];\n          subpos, sublen: csize_t)	
+insert	cppstl/std_basicstring.html#insert,CppBasicString[T],csize_t,ptr.UncheckedArray[T]	std_basicstring: insert[T](self: var CppBasicString[T]; pos: csize_t; s: ptr UncheckedArray[T])	
+insert	cppstl/std_basicstring.html#insert,CppBasicString[T],csize_t,ptr.UncheckedArray[T],csize_t	std_basicstring: insert[T](self: var CppBasicString[T]; pos: csize_t; s: ptr UncheckedArray[T];\n          n: csize_t)	
+insert	cppstl/std_basicstring.html#insert,CppBasicString[T],csize_t,csize_t,T	std_basicstring: insert[T](self: var CppBasicString[T]; p, n: csize_t; c: T)	
+insert	cppstl/std_basicstring.html#insert,CppBasicString[T],CppBasicStringConstIterator[T],csize_t,T	std_basicstring: insert[T](self: var CppBasicString[T]; p: CppBasicStringConstIterator[T];\n          n: csize_t; c: T)	
+insert	cppstl/std_basicstring.html#insert,CppBasicString[T],CppBasicStringConstIterator[T],T	std_basicstring: insert[T](self: var CppBasicString[T]; p: CppBasicStringConstIterator[T]; c: T)	
+insert	cppstl/std_basicstring.html#insert,CppBasicString[T],CppBasicStringIterator[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T]	std_basicstring: insert[T](self: var CppBasicString[T]; p: CppBasicStringIterator[T];\n          first, last: CppBasicStringConstIterator[T])	
+erase	cppstl/std_basicstring.html#erase,CppBasicString[T]	std_basicstring: erase[T](self: var CppBasicString[T])	
+erase	cppstl/std_basicstring.html#erase,CppBasicString[T],csize_t,csize_t	std_basicstring: erase[T](self: var CppBasicString[T]; pos: csize_t; l: csize_t = std_npos)	
+erase	cppstl/std_basicstring.html#erase,CppBasicString[T],CppBasicStringIterator[T]	std_basicstring: erase[T](self: var CppBasicString[T]; pos: CppBasicStringIterator[T])	
+erase	cppstl/std_basicstring.html#erase,CppBasicString[T],CppBasicStringIterator[T],CppBasicStringIterator[T]	std_basicstring: erase[T](self: var CppBasicString[T]; first, last: CppBasicStringIterator[T])	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],csize_t,csize_t,CppBasicString[T]	std_basicstring: replace[T](self: var CppBasicString[T]; pos, l: csize_t; str: CppBasicString[T])	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T],CppBasicString[T]	std_basicstring: replace[T](self: var CppBasicString[T]; i1, i2: CppBasicStringConstIterator[T];\n           str: CppBasicString[T])	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],csize_t,csize_t,CppBasicString[T],csize_t,csize_t	std_basicstring: replace[T](self: var CppBasicString[T]; pos, l: csize_t; str: CppBasicString[T];\n           subpos, subl: csize_t)	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],csize_t,csize_t,ptr.UncheckedArray[T]	std_basicstring: replace[T](self: var CppBasicString[T]; pos, l: csize_t;\n           s: ptr UncheckedArray[T])	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T],ptr.UncheckedArray[T]	std_basicstring: replace[T](self: var CppBasicString[T]; i1, i2: CppBasicStringConstIterator[T];\n           s: ptr UncheckedArray[T])	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],csize_t,csize_t,ptr.UncheckedArray[T],csize_t	std_basicstring: replace[T](self: var CppBasicString[T]; pos, l: csize_t;\n           s: ptr UncheckedArray[T]; n: csize_t)	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T],ptr.UncheckedArray[T],csize_t	std_basicstring: replace[T](self: var CppBasicString[T]; i1, i2: CppBasicStringConstIterator[T];\n           s: ptr UncheckedArray[T]; n: csize_t)	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],csize_t,csize_t,csize_t,T	std_basicstring: replace[T](self: var CppBasicString[T]; pos, l: csize_t; n: csize_t; c: T)	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T],csize_t,T	std_basicstring: replace[T](self: var CppBasicString[T]; i1, i2: CppBasicStringConstIterator[T];\n           n: csize_t; c: T)	
+replace	cppstl/std_basicstring.html#replace,CppBasicString[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T],CppBasicStringConstIterator[T]	std_basicstring: replace[T](self: var CppBasicString[T]; i1, i2: CppBasicStringConstIterator[T];\n           first, last: CppBasicStringConstIterator[T])	
+swap	cppstl/std_basicstring.html#swap,CppBasicString[T],CppBasicString[T]	std_basicstring: swap[T](self: var CppBasicString[T]; x: var CppBasicString[T])	
+popBack	cppstl/std_basicstring.html#popBack,CppBasicString[T]	std_basicstring: popBack[T](self: var CppBasicString[T])	
+cStr	cppstl/std_basicstring.html#cStr,CppBasicString[T]	std_basicstring: cStr[T](self: CppBasicString[T]): ptr UncheckedArray[T]	
+data	cppstl/std_basicstring.html#data,CppBasicString[T]	std_basicstring: data[T](self: CppBasicString[T]): ptr T	
+copy	cppstl/std_basicstring.html#copy,CppBasicString[T],ptr.T,csize_t,csize_t	std_basicstring: copy[T](self: CppBasicString[T]; s: ptr T; l: csize_t; pos: csize_t = 0): csize_t	
+find	cppstl/std_basicstring.html#find,CppBasicString[T],CppBasicString[T],csize_t	std_basicstring: find[T](self, str: CppBasicString[T]; pos: csize_t = 0): csize_t	
+find	cppstl/std_basicstring.html#find,CppBasicString[T],CppBasicString[T],csize_t,csize_t	std_basicstring: find[T](self, str: CppBasicString[T]; pos, n: csize_t): csize_t	
+find	cppstl/std_basicstring.html#find,CppBasicString[T],ptr.UncheckedArray[T],csize_t	std_basicstring: find[T](self: CppBasicString[T]; s: ptr UncheckedArray[T]; pos: csize_t = 0): csize_t	
+find	cppstl/std_basicstring.html#find,CppBasicString[T],ptr.UncheckedArray[T],csize_t,csize_t	std_basicstring: find[T](self: CppBasicString[T]; s: ptr UncheckedArray[T]; pos, n: csize_t): csize_t	
+find	cppstl/std_basicstring.html#find,CppBasicString[T],T,csize_t	std_basicstring: find[T](self: CppBasicString[T]; c: T; pos: csize_t = 0): csize_t	
+rfind	cppstl/std_basicstring.html#rfind,CppBasicString[T],CppBasicString[T],csize_t	std_basicstring: rfind[T](self, str: CppBasicString[T]; pos: csize_t = std_npos): csize_t	
+rfind	cppstl/std_basicstring.html#rfind,CppBasicString[T],CppBasicString[T],csize_t,csize_t	std_basicstring: rfind[T](self: CppBasicString[T]; s: CppBasicString[T]; pos, n: csize_t): csize_t	
+rfind	cppstl/std_basicstring.html#rfind,CppBasicString[T],ptr.UncheckedArray[T],csize_t	std_basicstring: rfind[T](self: CppBasicString[T]; s: ptr UncheckedArray[T];\n         pos: csize_t = std_npos): csize_t	
+rfind	cppstl/std_basicstring.html#rfind,CppBasicString[T],ptr.UncheckedArray[T],csize_t,csize_t	std_basicstring: rfind[T](self: CppBasicString[T]; s: ptr UncheckedArray[T]; pos, n: csize_t): csize_t	
+rfind	cppstl/std_basicstring.html#rfind,CppBasicString[T],T,csize_t	std_basicstring: rfind[T](self: CppBasicString[T]; c: T; pos: csize_t = std_npos): csize_t	
+findFirstOf	cppstl/std_basicstring.html#findFirstOf,CppBasicString[T],CppBasicString[T],csize_t	std_basicstring: findFirstOf[T](self, str: CppBasicString[T]; pos: csize_t = 0): csize_t	
+findFirstOf	cppstl/std_basicstring.html#findFirstOf,CppBasicString[T],CppBasicString[T],csize_t,csize_t	std_basicstring: findFirstOf[T](self, str: CppBasicString[T]; pos, n: csize_t): csize_t	
+findFirstOf	cppstl/std_basicstring.html#findFirstOf,CppBasicString[T],ptr.UncheckedArray[T],csize_t	std_basicstring: findFirstOf[T](self: CppBasicString[T]; s: ptr UncheckedArray[T];\n               pos: csize_t = 0): csize_t	
+findFirstOf	cppstl/std_basicstring.html#findFirstOf,CppBasicString[T],ptr.UncheckedArray[T],csize_t,csize_t	std_basicstring: findFirstOf[T](self: CppBasicString[T]; s: ptr UncheckedArray[T];\n               pos, n: csize_t): csize_t	
+findFirstOf	cppstl/std_basicstring.html#findFirstOf,CppBasicString[T],T,csize_t	std_basicstring: findFirstOf[T](self: CppBasicString[T]; c: T; pos: csize_t = 0): csize_t	
+findLastOf	cppstl/std_basicstring.html#findLastOf,CppBasicString[T],CppBasicString[T],csize_t	std_basicstring: findLastOf[T](self, str: CppBasicString[T]; pos: csize_t = std_npos): csize_t	
+findLastOf	cppstl/std_basicstring.html#findLastOf,CppBasicString[T],CppBasicString[T],csize_t,csize_t	std_basicstring: findLastOf[T](self: CppBasicString[T]; s: CppBasicString[T]; pos, n: csize_t): csize_t	
+findLastOf	cppstl/std_basicstring.html#findLastOf,CppBasicString[T],ptr.UncheckedArray[T],csize_t	std_basicstring: findLastOf[T](self: CppBasicString[T]; s: ptr UncheckedArray[T];\n              pos: csize_t = std_npos): csize_t	
+findLastOf	cppstl/std_basicstring.html#findLastOf,CppBasicString[T],ptr.UncheckedArray[T],csize_t,csize_t	std_basicstring: findLastOf[T](self: CppBasicString[T]; s: ptr UncheckedArray[T]; pos, n: csize_t): csize_t	
+findLastOf	cppstl/std_basicstring.html#findLastOf,CppBasicString[T],T,csize_t	std_basicstring: findLastOf[T](self: CppBasicString[T]; c: T; pos: csize_t = std_npos): csize_t	
+findFirstNotOf	cppstl/std_basicstring.html#findFirstNotOf,CppBasicString[T],CppBasicString[T],csize_t	std_basicstring: findFirstNotOf[T](self, str: CppBasicString[T]; pos: csize_t = 0): csize_t	
+findFirstNotOf	cppstl/std_basicstring.html#findFirstNotOf,CppBasicString[T],CppBasicString[T],csize_t,csize_t	std_basicstring: findFirstNotOf[T](self, str: CppBasicString[T]; pos, n: csize_t): csize_t	
+findFirstNotOf	cppstl/std_basicstring.html#findFirstNotOf,CppBasicString[T],ptr.UncheckedArray[T],csize_t	std_basicstring: findFirstNotOf[T](self: CppBasicString[T]; s: ptr UncheckedArray[T];\n                  pos: csize_t = 0): csize_t	
+findFirstNotOf	cppstl/std_basicstring.html#findFirstNotOf,CppBasicString[T],ptr.UncheckedArray[T],csize_t,csize_t	std_basicstring: findFirstNotOf[T](self: CppBasicString[T]; s: ptr UncheckedArray[T];\n                  pos, n: csize_t): csize_t	
+findFirstNotOf	cppstl/std_basicstring.html#findFirstNotOf,CppBasicString[T],T,csize_t	std_basicstring: findFirstNotOf[T](self: CppBasicString[T]; c: T; pos: csize_t = 0): csize_t	
+findLastNotOf	cppstl/std_basicstring.html#findLastNotOf,CppBasicString[T],CppBasicString[T],csize_t	std_basicstring: findLastNotOf[T](self, str: CppBasicString[T]; pos: csize_t = std_npos): csize_t	
+findLastNotOf	cppstl/std_basicstring.html#findLastNotOf,CppBasicString[T],CppBasicString[T],csize_t,csize_t	std_basicstring: findLastNotOf[T](self, str: CppBasicString[T]; pos, n: csize_t): csize_t	
+findLastNotOf	cppstl/std_basicstring.html#findLastNotOf,CppBasicString[T],ptr.UncheckedArray[T],csize_t	std_basicstring: findLastNotOf[T](self: CppBasicString[T]; s: ptr UncheckedArray[T];\n                 pos: csize_t = std_npos): csize_t	
+findLastNotOf	cppstl/std_basicstring.html#findLastNotOf,CppBasicString[T],ptr.UncheckedArray[T],csize_t,csize_t	std_basicstring: findLastNotOf[T](self: CppBasicString[T]; s: ptr UncheckedArray[T];\n                 pos, n: csize_t): csize_t	
+findLastNotOf	cppstl/std_basicstring.html#findLastNotOf,CppBasicString[T],T,csize_t	std_basicstring: findLastNotOf[T](self: CppBasicString[T]; c: T; pos: csize_t = std_npos): csize_t	
+substr	cppstl/std_basicstring.html#substr,CppBasicString[T],csize_t,csize_t	std_basicstring: substr[T](self: CppBasicString[T]; pos: csize_t = 0; l: csize_t = std_npos): CppBasicString[\n    T]	
+compare	cppstl/std_basicstring.html#compare,CppBasicString[T],CppBasicString[T]	std_basicstring: compare[T](self, str: CppBasicString[T]): cint	
+compare	cppstl/std_basicstring.html#compare,CppBasicString[T],csize_t,csize_t,CppBasicString[T]	std_basicstring: compare[T](self: CppBasicString[T]; pos, l: csize_t; str: CppBasicString[T]): cint	
+compare	cppstl/std_basicstring.html#compare,CppBasicString[T],csize_t,csize_t,CppBasicString[T],csize_t,csize_t	std_basicstring: compare[T](self: CppBasicString[T]; pos, l: csize_t; str: CppBasicString[T];\n           subpos, subl: csize_t): cint	
+compare	cppstl/std_basicstring.html#compare,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: compare[T](self: CppBasicString[T]; s: ptr UncheckedArray[T]): cint	
+compare	cppstl/std_basicstring.html#compare,CppBasicString[T],csize_t,csize_t,ptr.UncheckedArray[T]	std_basicstring: compare[T](self: CppBasicString[T]; pos, l: csize_t; str: ptr UncheckedArray[T]): cint	
+compare	cppstl/std_basicstring.html#compare,CppBasicString[T],csize_t,csize_t,ptr.UncheckedArray[T],csize_t	std_basicstring: compare[T](self: CppBasicString[T]; pos, l: csize_t; str: ptr UncheckedArray[T];\n           n: csize_t): cint	
+compare	cppstl/std_basicstring.html#compare,CppBasicString[T],csize_t,csize_t,ptr.UncheckedArray[T],csize_t,csize_t	std_basicstring: compare[T](self: CppBasicString[T]; pos, l: csize_t; str: ptr UncheckedArray[T];\n           subpos, subl: csize_t): cint	
+`+`	cppstl/std_basicstring.html#+,CppBasicString[T],T	std_basicstring: `+`[T](a: CppBasicString[T]; b: T): CppBasicString[T]	
+`+`	cppstl/std_basicstring.html#+,T,CppBasicString[T]	std_basicstring: `+`[T](a: T; b: CppBasicString[T]): CppBasicString[T]	
+`+`	cppstl/std_basicstring.html#+,CppBasicString[T],CppBasicString[T]	std_basicstring: `+`[T](a: CppBasicString[T]; b: CppBasicString[T]): CppBasicString[T]	
+`==`	cppstl/std_basicstring.html#==,CppBasicString[T],CppBasicString[T]	std_basicstring: `==`[T](a: CppBasicString[T]; b: CppBasicString[T]): bool	
+`!=`	cppstl/std_basicstring.html#!=,CppBasicString[T],CppBasicString[T]	std_basicstring: `!=`[T](a: CppBasicString[T]; b: CppBasicString[T]): bool	
+`&lt;`	cppstl/std_basicstring.html#<,CppBasicString[T],CppBasicString[T]	std_basicstring: `&lt;`[T](a: CppBasicString[T]; b: CppBasicString[T]): bool	
+`&lt;=`	cppstl/std_basicstring.html#<=,CppBasicString[T],CppBasicString[T]	std_basicstring: `&lt;=`[T](a: CppBasicString[T]; b: CppBasicString[T]): bool	
+`&gt;`	cppstl/std_basicstring.html#>,CppBasicString[T],CppBasicString[T]	std_basicstring: `&gt;`[T](a: CppBasicString[T]; b: CppBasicString[T]): bool	
+`&gt;=`	cppstl/std_basicstring.html#>=,CppBasicString[T],CppBasicString[T]	std_basicstring: `&gt;=`[T](a: CppBasicString[T]; b: CppBasicString[T]): bool	
+CppBasicStringIteratorToBasicStringConstIterator	cppstl/std_basicstring.html#CppBasicStringIteratorToBasicStringConstIterator.c,CppBasicStringIterator[T]	std_basicstring: CppBasicStringIteratorToBasicStringConstIterator[T](s: CppBasicStringIterator[T]): CppBasicStringConstIterator[\n    T]	
+`+`	cppstl/std_basicstring.html#+,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: `+`[T](a: CppBasicString[T]; b: ptr UncheckedArray[T]): CppBasicString[T]	
+`+`	cppstl/std_basicstring.html#+,ptr.UncheckedArray[T],CppBasicString[T]	std_basicstring: `+`[T](a: ptr UncheckedArray[T]; b: CppBasicString[T]): CppBasicString[T]	
+`==`	cppstl/std_basicstring.html#==,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: `==`[T](a: CppBasicString[T]; b: ptr UncheckedArray[T]): bool	
+`==`	cppstl/std_basicstring.html#==,ptr.UncheckedArray[T],CppBasicString[T]	std_basicstring: `==`[T](a: ptr UncheckedArray[T]; b: CppBasicString[T]): bool	
+`!=`	cppstl/std_basicstring.html#!=,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: `!=`[T](a: CppBasicString[T]; b: ptr UncheckedArray[T]): bool	
+`!=`	cppstl/std_basicstring.html#!=,ptr.UncheckedArray[T],CppBasicString[T]	std_basicstring: `!=`[T](a: ptr UncheckedArray[T]; b: CppBasicString[T]): bool	
+`&lt;`	cppstl/std_basicstring.html#<,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: `&lt;`[T](a: CppBasicString[T]; b: ptr UncheckedArray[T]): bool	
+`&lt;`	cppstl/std_basicstring.html#<,ptr.UncheckedArray[T],CppBasicString[T]	std_basicstring: `&lt;`[T](a: ptr UncheckedArray[T]; b: CppBasicString[T]): bool	
+`&lt;=`	cppstl/std_basicstring.html#<=,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: `&lt;=`[T](a: CppBasicString[T]; b: ptr UncheckedArray[T]): bool	
+`&lt;=`	cppstl/std_basicstring.html#<=,ptr.UncheckedArray[T],CppBasicString[T]	std_basicstring: `&lt;=`[T](a: ptr UncheckedArray[T]; b: CppBasicString[T]): bool	
+`&gt;`	cppstl/std_basicstring.html#>,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: `&gt;`[T](a: CppBasicString[T]; b: ptr UncheckedArray[T]): bool	
+`&gt;`	cppstl/std_basicstring.html#>,ptr.UncheckedArray[T],CppBasicString[T]	std_basicstring: `&gt;`[T](a: ptr UncheckedArray[T]; b: CppBasicString[T]): bool	
+`&gt;=`	cppstl/std_basicstring.html#>=,CppBasicString[T],ptr.UncheckedArray[T]	std_basicstring: `&gt;=`[T](a: CppBasicString[T]; b: ptr UncheckedArray[T]): bool	
+`&gt;=`	cppstl/std_basicstring.html#>=,ptr.UncheckedArray[T],CppBasicString[T]	std_basicstring: `&gt;=`[T](a: ptr UncheckedArray[T]; b: CppBasicString[T]): bool	
+`[]`	cppstl/std_basicstring.html#[],CppBasicString[T],Natural	std_basicstring: `[]`[T](self: CppBasicString[T]; idx: Natural): T	
+`[]`	cppstl/std_basicstring.html#[],CppBasicString[T],Natural_2	std_basicstring: `[]`[T](self: var CppBasicString[T]; idx: Natural): var T	
+`[]=`	cppstl/std_basicstring.html#[]=,CppBasicString[T],Natural,T	std_basicstring: `[]=`[T](self: var CppBasicString[T]; idx: Natural; val: T)	
+len	cppstl/std_basicstring.html#len,CppBasicString[T]	std_basicstring: len[T](v: CppBasicString[T]): csize_t	
+add	cppstl/std_basicstring.html#add,CppBasicString[T],T	std_basicstring: add[T](v: var CppBasicString[T]; elem: T)	
+first	cppstl/std_basicstring.html#first,CppBasicString[T]	std_basicstring: first[T](v: var CppBasicString[T]): var T	
+first	cppstl/std_basicstring.html#first,CppBasicString[T]_2	std_basicstring: first[T](v: CppBasicString[T]): T	
+last	cppstl/std_basicstring.html#last,CppBasicString[T]	std_basicstring: last[T](v: var CppBasicString[T]): var T	
+last	cppstl/std_basicstring.html#last,CppBasicString[T]_2	std_basicstring: last[T](v: CppBasicString[T]): T	
+items	cppstl/std_basicstring.html#items.i,CppBasicString[T]	std_basicstring: items[T](v: CppBasicString[T]): T	
+pairs	cppstl/std_basicstring.html#pairs.i,CppBasicString[T]	std_basicstring: pairs[T](v: CppBasicString[T]): (csize_t, T)	
+mitems	cppstl/std_basicstring.html#mitems.i,CppBasicString[T]	std_basicstring: mitems[T](v: var CppBasicString[T]): var T	
+mpairs	cppstl/std_basicstring.html#mpairs.i,CppBasicString[T]	std_basicstring: mpairs[T](v: var CppBasicString[T]): (csize_t, var T)	

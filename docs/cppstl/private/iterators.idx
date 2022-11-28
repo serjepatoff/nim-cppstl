@@ -1,0 +1,10 @@
+CppIterator	cppstl/private/iterators.html#CppIterator	iterators: CppIterator	
+CppConstIterator	cppstl/private/iterators.html#CppConstIterator	iterators: CppConstIterator	
+`+`	cppstl/private/iterators.html#+,I,int	iterators: `+`[I: SomeCppIterator](it: I; offset: int): I	
+`-`	cppstl/private/iterators.html#-,I,int	iterators: `-`[I: SomeCppIterator](it: I; offset: int): I	
+inc	cppstl/private/iterators.html#inc,SomeCppIterator	iterators: inc(it: SomeCppIterator)	
+inc	cppstl/private/iterators.html#inc,SomeCppIterator,int	iterators: inc(it: SomeCppIterator; offset: int)	
+`==`	cppstl/private/iterators.html#==,CppIterator[ValueType],CppIterator[ValueType]	iterators: `==`[ValueType](it, otherIt: CppIterator[ValueType]): bool	
+`==`	cppstl/private/iterators.html#==,CppConstIterator[ValueType],CppConstIterator[ValueType]	iterators: `==`[ValueType](it, otherIt: CppConstIterator[ValueType]): bool	
+`[]`	cppstl/private/iterators.html#[],CppIterator[ValueType]	iterators: `[]`[ValueType](it: CppIterator[ValueType]): var ValueType	
+`[]`	cppstl/private/iterators.html#[],CppConstIterator[ValueType]	iterators: `[]`[ValueType](it: CppConstIterator[ValueType]): ValueType	
