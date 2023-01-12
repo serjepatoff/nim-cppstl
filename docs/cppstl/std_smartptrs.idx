@@ -1,4 +1,5 @@
 CppSharedPtr	cppstl/std_smartptrs.html#CppSharedPtr	std_smartptrs: CppSharedPtr	
+newCppSharedPtr	cppstl/std_smartptrs.html#newCppSharedPtr,ptr.T	std_smartptrs: newCppSharedPtr[T](p: ptr T): CppSharedPtr[T]	
 makeShared	cppstl/std_smartptrs.html#makeShared,typedesc	std_smartptrs: makeShared(T: typedesc): CppSharedPtr[T]	
 makeShared	cppstl/std_smartptrs.html#makeShared,CppSharedPtr[T]	std_smartptrs: makeShared[T](p: CppSharedPtr[T]): CppSharedPtr[T]	
 `=copy`	cppstl/std_smartptrs.html#=copy,CppSharedPtr[T],CppSharedPtr[T]	std_smartptrs: `=copy`[T](p: var CppSharedPtr[T]; o: CppSharedPtr[T])	
